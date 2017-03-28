@@ -1,0 +1,9 @@
+{
+  "git": {
+    "api": "http://gitlab.alibaba-inc.com/api/v3",
+    "privateToken": "1234"
+  },
+  "develop": [],
+  "user": [],
+  "link": []
+}

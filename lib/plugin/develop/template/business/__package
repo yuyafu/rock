@@ -1,0 +1,30 @@
+{
+  "name": "@ali/<{%=componentName%}>",
+  "author":"<{%=author%}>",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "peerDependencies":{
+    "@alife/next": "^0.8.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-api-async": "^1.1.2"
+  },
+  "dependencies":{
+  },
+  "scripts": {
+    "build": "gulp build",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "license": "ISC"
+}
